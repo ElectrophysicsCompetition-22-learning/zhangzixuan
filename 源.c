@@ -1,103 +1,88 @@
-//#include<stdio.h>
-//void main()
-//{
-//	double r = 3.67, c, s;
-//	c = 2 * 3.1415926 * r;
-//	s = 3.1415926 * r * r;
-//	printf("c=%f\ns=%f\n",c,s);
+////#define _CRT_SECURE_NO_WARNINGS
+////#include<stdio.h>
+////int main()
+/////
+////	int line = 0;/{
+////	int input = 0;
+////	printf("加入实验室：>\n");
+////	printf("那要好好学习吗(1/0)?>:");
+////	scanf("%d", &input);
+////	if (input == 1)
+////		printf("好offer\n");
+////	else
+////		printf("搬砖\n");
+////}
 //
-//}
-
-//#define PI 3.1415926
+//#define _CRT_SECURE_NO_WARNINGS
 //#include<stdio.h>
-//#include <math.h>
+////int main()
+//////{      循环
+////	while (line < 30000)
+////	{
+////		printf("写代码:%d\n", line);
+////		line++;
+////	}
+////	if (line == 30000)
+////	{
+////		printf("好offer\n");
+////	}
+////}
+//
+////{
+////    //int num1 = 0;
+////    //int num2 = 0;
+////    //scanf("%d%d", &num1, &num2);
+////    //int sum = num1 + num2;
+////    //printf("%d\n", sum);
+////}
+//
+//
+////
+////    int Add(int x, int y);
+////{
+////	int z = 0;
+////	z = x + y;
+////	return z;
+////}
+//
+////int main()
+////{
+////	int num1 = 0;
+////	int num2 = 0;
+////	scanf_s("%d%d", &num1, &num2);
+////	int sum = Add(num1, num2);
+////	printf("%d\n", sum);
+////}
+////int Add(int x, int y);
+////{
+////	int z = 0;
+////	z = x + y;
+////	return z;
+////}
+//
 //int main()
 //{
-//	double r = 3.67, c, s;
-//	c = 2 * PI * r;
-//	s = PI * r * r;
-//	//printf("c=%f\ns=%f\n",c,s);
-//}
-// 
-// 
-// 
-//#include<stdio.h>
-//void main()
-//{
-//	char c1 = 'a', c2 = 'b';
-//	c1 = c1 - 32;
-//	c2 = c2 - 32;
-//	printf("%c,%c\n",c1,c2);
-//}
-//
-// 
-// 
-//#include<stdio.h>
-//void main()
-//{
-//	char c1 = 97, c2 = 98;
-//	printf("%c,%c\n",c1,c2);
-//	printf("%d,%d\n",c1,c2);
-//}
-// 
-// 
-// 
-//#include<stdio.h>
-//void main()
-//{
-//	char a = 'C', b = 'H', c = 'I', d = 'N', e = 'A';
-//	printf("%c%c%c%c%c\n",a,b,c,d,e);
-//	printf("%c%c%c%c%c\n",e,d,c,b,a);
-//}
-//
-// 
-//#include<stdio.h>
-//void main()
-//{
-//	double f1;
-//	double f2;
-//	f1 = 1 / 3;
-//	f2 = 0.1 / 0.3;
-//	printf("f1=%f\nf2=%f\n",f1,f2);
-//}
-// 
-// 
-//#include<stdio.h>
-//void main()
-//{
-//	int i = 6, a, b;
-//	printf("%d\n",++i);
-//	printf("%d\n",i++);
-//	a = --i, ("%d\n", a);
-//	b = i--, ("%d\n", b);
-//	printf("%d\n",-i++);
-//	printf("i=%d\n",i);
-//}
-
-
-//#include<stdio.h>
-//void main()
-//{
-//	float f = 3.6; int i;
-//	i = (int)f;
-//	printf("f=%f,i=%d\n",f,i);
-//
-//}
-//
-//#include<stdio.h>
-//void main()
-//{
-//	int a = 12, b;
-//	b = (a += a -= a * a);
-//	printf("a=%d,b=%d\n",a,b);
-//}
-
-//
+//	int arr[10] = { 1,2,3,4,5,6,7,8,9,10 };
+//	int i = 0;
+//	while (i < 10);
+//	{
+//		printf("%d", arr[i]);
+//		i++;
+//		return 0;
+//	}
+	
 #include<stdio.h>
-void main()
+int main()
 {
-	int a = 2, b = 4, c = 6;
-	int x, y;
-	y = ((x = a + b), (b + c));
-	printf("x=%d,y=%d\n",x,y);
+	/*int i = 0;
+	int arr[10] = { 1,2,3,4,5,6,7,8,9,10 };
+	for (i = 0; i < 10; i++)
+	{
+		printf("%d", arr[i]);
+	}
+	printf("\n");*/
+	int a = 10;
+	printf("%d\n", sizeof(int));
+	printf("%d\n", sizeof(a));
+	return 0;
 }
